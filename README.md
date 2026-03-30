@@ -10,34 +10,6 @@ A lightweight Vulkan-based game engine written in C.
 - **Modular Architecture** - Clean separation of concerns
 - **Swapchain Management** - Proper present mode and format selection
 
-## Project Structure
-
-```
-Opxium/
-├── include/opxium/     # Public headers
-│   ├── opxium.h        # Main include file
-│   ├── types.h         # Common types and structures
-│   ├── engine.h        # Engine lifecycle management
-│   ├── window.h        # Window management
-│   ├── instance.h      # Vulkan instance
-│   ├── device.h        # Physical/logical device
-│   ├── surface.h       # Window surface
-│   └── swapchain.h     # Swapchain management
-├── src/
-│   ├── main.c          # Entry point
-│   ├── core/           # Core engine systems
-│   │   └── engine.c
-│   ├── renderer/       # Vulkan rendering
-│   │   ├── instance.c
-│   │   ├── device.c
-│   │   ├── surface.c
-│   │   └── swapchain.c
-│   └── platform/       # Platform abstraction
-│       └── window.c
-├── shaders/            # GLSL shader sources
-├── build/              # Build output (generated)
-└── Makefile
-```
 
 ## Requirements
 
