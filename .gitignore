@@ -1,11 +1,17 @@
 # Prerequisites
 *.d
 
+# Build directory
+build/
+
 # Object files
 *.o
 *.ko
 *.obj
 *.elf
+
+# Compiled shaders
+*.spv
 
 # Linker output
 *.ilk
